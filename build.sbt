@@ -1,8 +1,7 @@
 name := "Basic SBT ScalaTest Test"
 
-version := "1.1"
+version := "2.0"
 
-scalaVersion := "2.10.0"
+scalaVersion := "2.11.7"
 
-libraryDependencies += "org.scalatest" % "scalatest_2.10" % "1.9.1" % "test"
-
+libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6" % "test"

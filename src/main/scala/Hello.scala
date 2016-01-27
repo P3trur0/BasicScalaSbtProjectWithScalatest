@@ -1,9 +1,8 @@
-package com.alvinalexander.testproject
+package com.trevisoscalagroup.testproject
 
 object Hello extends App {
-  val p = Person("Alvin Alexander")
-  println("Hello from " + p.name)
+  val p = Person("Mario","Rossi")
+  println("Hello from " + p.name+" "+p.surname)
 }
 
-case class Person(var name: String)
-
+case class Person(name: String, surname: String)
